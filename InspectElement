@@ -19,6 +19,8 @@ public class InspectElement {
 		Password.sendKeys("12345678");
 		WebElement LoginButton = driver.findElement(By.name("login"));
 		LoginButton.click();
+		driver.quit();
+		
 
 	}
 
